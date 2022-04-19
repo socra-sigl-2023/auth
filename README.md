@@ -293,10 +293,10 @@ const jwtCheck = jwt({
         cache: true,
         rateLimit: true,
         jwksRequestsPerMinute: 5,
-        jwksUri: 'https://socra-group30.eu.auth0.com/.well-known/jwks.json'
+        jwksUri: 'https://socra-groupXX.eu.auth0.com/.well-known/jwks.json'
     }),
-    audience: 'https://api.group30.socra-sigl.fr',
-    issuer: 'https://socra-group30.eu.auth0.com/',
+    audience: 'https://api.groupXX.socra-sigl.fr',
+    issuer: 'https://socra-groupXX.eu.auth0.com/',
     algorithms: ['RS256']
 });
 
